@@ -58,10 +58,10 @@ export class Blog extends Component {
 						<BlogPost post={activePost} />
 						<div className="blogPost__pagination">
 							<div className={prevPostClassName}>
-								<button className="btn" onClick={()=>this._changePost('prev')}>PREVIOUS</button>
+								<div onClick={()=>this._changePost('prev')}>PREVIOUS</div>
 							</div>
 							<div className={nextPostClassName}>
-								<button className="btn" onClick={()=>this._changePost('next')}>Next</button>
+								<div onClick={()=>this._changePost('next')}>Next</div>
 							</div>
 						</div>
 					</div>

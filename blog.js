@@ -174,8 +174,8 @@
 									'div',
 									{ className: prevPostClassName },
 									_react2.default.createElement(
-										'button',
-										{ className: 'btn', onClick: function onClick() {
+										'div',
+										{ onClick: function onClick() {
 												return _this2._changePost('prev');
 											} },
 										'PREVIOUS'
@@ -185,8 +185,8 @@
 									'div',
 									{ className: nextPostClassName },
 									_react2.default.createElement(
-										'button',
-										{ className: 'btn', onClick: function onClick() {
+										'div',
+										{ onClick: function onClick() {
 												return _this2._changePost('next');
 											} },
 										'Next'
